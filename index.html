@@ -184,6 +184,7 @@ body{background:#000;height:100vh;overflow:hidden;color:var(--text);user-select:
 .welcome-card{position:fixed;z-index:100;top:76px;left:48px;width:min(440px,calc(100vw - 96px));padding:24px 26px 22px;border:1px solid rgba(255,255,255,.18);border-radius:20px;background:linear-gradient(145deg,rgba(27,31,50,.8),rgba(20,17,37,.67));backdrop-filter:blur(26px) saturate(150%);box-shadow:0 22px 60px rgba(0,0,0,.3);}
 .welcome-kicker{font-size:10px;font-weight:700;letter-spacing:1.5px;color:#b9c9ff;text-transform:uppercase;margin-bottom:10px;}
 .welcome-card h1{font-size:clamp(25px,3vw,34px);line-height:1.08;letter-spacing:-.7px;margin-bottom:10px;color:#fff;}
+.welcome-title-line{display:block;white-space:nowrap;}
 .welcome-card p{font-size:13px;line-height:1.55;color:rgba(255,255,255,.78);max-width:355px;}
 .welcome-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;}
 .welcome-actions button,.welcome-actions a{border:0;text-decoration:none;border-radius:999px;padding:10px 15px;font-size:12px;font-weight:700;cursor:pointer;}
@@ -212,7 +213,7 @@ body{background:#000;height:100vh;overflow:hidden;color:var(--text);user-select:
   .dicon span{font-size:11px;text-shadow:0 1px 5px rgba(0,0,0,.9);}
   .mobile-only{display:flex;}
   .welcome-card{top:60px;left:18px;width:calc(100vw - 36px);padding:19px 20px 17px;border-radius:22px;background:rgba(25,30,52,.55);}
-  .welcome-kicker{font-size:9px;margin-bottom:7px;}.welcome-card h1{font-size:25px;margin-bottom:7px;}.welcome-card p{font-size:12px;line-height:1.4;}
+  .welcome-kicker{font-size:9px;margin-bottom:7px;}.welcome-card h1{font-size:clamp(20px,6.2vw,24px);line-height:1.14;letter-spacing:-.45px;margin-bottom:8px;}.welcome-title-line{white-space:nowrap;}.welcome-card p{font-size:12px;line-height:1.4;}
   .welcome-actions{gap:8px;margin-top:12px;}.welcome-actions button{padding:9px 12px;font-size:11px;}.welcome-note{display:none;}
   #dock-wrap{bottom:30px;padding:0 10px;}
   #dock{max-width:calc(100vw - 24px);gap:8px;padding:8px 10px;border-radius:22px;background:rgba(245,245,255,.2);}
@@ -270,7 +271,7 @@ body{background:#000;height:100vh;overflow:hidden;color:var(--text);user-select:
 <!-- PORTFOLIO INTRO -->
 <section class="welcome-card" id="welcome-card" aria-label="Portfolio introduction">
   <div class="welcome-kicker">Joel Lee · Computer Science</div>
-  <h1>Hi, I’m Joel.<br>I build useful software.</h1>
+  <h1><span class="welcome-title-line">Hi, I’m Joel.</span><span class="welcome-title-line">I build useful software.</span></h1>
   <p>Hunter College CS student creating full-stack apps, data tools, and thoughtful web experiences.</p>
   <div class="welcome-actions">
     <button class="welcome-primary" onclick="openWin('projects-win')">View Projects</button>
