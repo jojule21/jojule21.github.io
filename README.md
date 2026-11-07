@@ -1,3 +1,5 @@
-# Portfolio Page!
+# Joel Lee Portfolio
 
-[Click on this link to see it :)](https://jojule21.github.io/)
+Visit the live portfolio: [jojule21.github.io](https://jojule21.github.io/)
+
+This site is hosted with GitHub Pages from this repository.
