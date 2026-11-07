@@ -1,4 +1,3 @@
-# jojule21.github.io/
-Portfolio Page!
+# Portfolio Page!
 
 [Click on this link to see it :)](jojule21.github.io/)
